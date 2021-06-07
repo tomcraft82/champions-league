@@ -24,7 +24,7 @@ class PlayWeekUpdateRequest extends FormRequest
     public function rules()
     {
         return [
-            'week' => 'optional|integer|gt:0'
+            'week' => 'integer|gt:0'
         ];
     }
 }

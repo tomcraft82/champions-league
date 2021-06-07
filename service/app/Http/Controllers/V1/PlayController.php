@@ -23,6 +23,6 @@ class PlayController extends Controller
             $this->gameService->playAll();
         }
 
-        return response()->json(['league' => 1]);
+        return response()->json(['message' => 'success']);
     }
 }
